@@ -1,6 +1,6 @@
-# Curso-WEB -- Jogar Dados
+# Curso-WEB -- Slider - Imagem
 
-Projeto de desenvolvimento Jogar Dados
+Projeto de desenvolvimento Slider - Imagem
 
 Atividade curso Web
 
