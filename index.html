@@ -22,9 +22,35 @@
 </head>
 <body>
 
+    <div class="slider">
+        <div class="slider-items">
 
+            <!-- Photo by <a href="https://unsplash.com/@claritycontrol?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joe Ciciarelli</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+  
+            <img class="slider-item" src="img/joe-ciciarelli-1.png" alt="...">
+            <img class="slider-item" src="img/joe-ciciarelli-2.png" alt="...">
+            <img class="slider-item" src="img/joe-ciciarelli-3.png" alt="...">          
 
+        </div>
 
+        <div class="slider-controls">
+            <span class="bx bxs-chevron-left prev" onclick="changeSlide(-1)"></span>
+            <span class="bx bxs-chevron-right next" onclick="changeSlide(1)"></span>
+        </div>
+
+        <div class="slider-indicators">
+            <span onclick="moveTo(1)"></span>
+            <span onclick="moveTo(2)"></span>
+            <span onclick="moveTo(3)"></span>
+        </div>
+
+        <div class="slider-content">
+            <h3>Garota lendo</h3>
+            <h3>Praia no Pôr do sol</h3>
+            <h3>Oceano horizonte</h3>
+        </div>
+
+    </div>
 
 <!--JS-->
 <script src="js/script.js" type="text/javascript"></script>
